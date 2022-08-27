@@ -11,7 +11,7 @@
 =end
 
 def caesar_chiper()
-    aplhabet_array = [Array('a'..'z'), Array('a'..'z')].flatten
+    aplhabet_array = [Array('a'..'z'), Array('a'..'z')].flatten #easiest way to cycle through the array 
 
     # Get string
     puts "Insert a word"
@@ -55,7 +55,7 @@ def caesar_chiper()
             encrypted_array.flatten[index].upcase!
         end
     end
-    print encrypted_array.join
+    puts encrypted_array.join
 end
 
 # Method to define if a letter is upcase
